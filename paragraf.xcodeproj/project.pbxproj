@@ -10,14 +10,15 @@
 		93086E091DDE15EA009DDFB8 /* FeedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93086E081DDE15EA009DDFB8 /* FeedCardView.swift */; };
 		934A26A51DDB92E100B4F707 /* StoryDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A26A41DDB92E100B4F707 /* StoryDetailTableViewController.swift */; };
 		935057FC1DDB26CC0006ADF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935057FB1DDB26CC0006ADF0 /* AppDelegate.swift */; };
-		935057FE1DDB26CC0006ADF0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935057FD1DDB26CC0006ADF0 /* FirstViewController.swift */; };
-		935058001DDB26CC0006ADF0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935057FF1DDB26CC0006ADF0 /* SecondViewController.swift */; };
 		935058031DDB26CC0006ADF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935058011DDB26CC0006ADF0 /* Main.storyboard */; };
 		935058051DDB26CC0006ADF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935058041DDB26CC0006ADF0 /* Assets.xcassets */; };
 		935058081DDB26CC0006ADF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935058061DDB26CC0006ADF0 /* LaunchScreen.storyboard */; };
 		93A4E04F1DDE1A43001CA4E6 /* StoryDetailHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A4E04E1DDE1A43001CA4E6 /* StoryDetailHeaderTableViewCell.swift */; };
 		93B068BF1DDBB7F200945657 /* ParagraphTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B068BE1DDBB7F200945657 /* ParagraphTableViewCell.swift */; };
 		93E3EA811DDEEC6B00001993 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3EA801DDEEC6B00001993 /* FeedTableViewController.swift */; };
+		A01E4B8F1DED01010078E51F /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E4B8E1DED01010078E51F /* ProfileTableViewController.swift */; };
+		A01E4B921DEDDD660078E51F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E4B911DEDDD660078E51F /* Profile.swift */; };
+		A01E4B941DEDDD760078E51F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E4B931DEDDD760078E51F /* Session.swift */; };
 		A067401C1DDBA9F600053FCE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067401B1DDBA9F600053FCE /* AuthViewController.swift */; };
 		A0CD0FFB1DE6EC99008DD3D4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CD0FFA1DE6EC99008DD3D4 /* API.swift */; };
 		A0E0E9DB1DE737F7002D0D73 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0E9DA1DE737F7002D0D73 /* TabBarController.swift */; };
@@ -31,8 +32,6 @@
 		934A26A41DDB92E100B4F707 /* StoryDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailTableViewController.swift; sourceTree = "<group>"; };
 		935057F81DDB26CC0006ADF0 /* paragraf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paragraf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935057FB1DDB26CC0006ADF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		935057FD1DDB26CC0006ADF0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		935057FF1DDB26CC0006ADF0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		935058021DDB26CC0006ADF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		935058041DDB26CC0006ADF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935058071DDB26CC0006ADF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +40,9 @@
 		93B068BE1DDBB7F200945657 /* ParagraphTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParagraphTableViewCell.swift; sourceTree = "<group>"; };
 		93E3EA801DDEEC6B00001993 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		9AA33DBED160206C705222D3 /* Pods_paragraf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paragraf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01E4B8E1DED01010078E51F /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		A01E4B911DEDDD660078E51F /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A01E4B931DEDDD760078E51F /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A067401B1DDBA9F600053FCE /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		A0BF82241DDBD2A700C84137 /* paragraf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = paragraf.entitlements; sourceTree = "<group>"; };
 		A0CD0FFA1DE6EC99008DD3D4 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -80,15 +82,14 @@
 		935057FA1DDB26CC0006ADF0 /* paragraf */ = {
 			isa = PBXGroup;
 			children = (
-				93A4E04E1DDE1A43001CA4E6 /* StoryDetailHeaderTableViewCell.swift */,
 				A0BF82241DDBD2A700C84137 /* paragraf.entitlements */,
+				93A4E04E1DDE1A43001CA4E6 /* StoryDetailHeaderTableViewCell.swift */,
 				A067401B1DDBA9F600053FCE /* AuthViewController.swift */,
 				A0E0E9DA1DE737F7002D0D73 /* TabBarController.swift */,
 				935057FB1DDB26CC0006ADF0 /* AppDelegate.swift */,
-				935057FD1DDB26CC0006ADF0 /* FirstViewController.swift */,
-				935057FF1DDB26CC0006ADF0 /* SecondViewController.swift */,
-				A0CD0FFA1DE6EC99008DD3D4 /* API.swift */,
+				A01E4B901DEDDD210078E51F /* serveur abstration */,
 				935058011DDB26CC0006ADF0 /* Main.storyboard */,
+				A01E4B8E1DED01010078E51F /* ProfileTableViewController.swift */,
 				93E3EA801DDEEC6B00001993 /* FeedTableViewController.swift */,
 				93086E081DDE15EA009DDFB8 /* FeedCardView.swift */,
 				934A26A41DDB92E100B4F707 /* StoryDetailTableViewController.swift */,
@@ -107,6 +108,16 @@
 				72158C2F18019EFCE405251A /* Pods-paragraf.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A01E4B901DEDDD210078E51F /* serveur abstration */ = {
+			isa = PBXGroup;
+			children = (
+				A0CD0FFA1DE6EC99008DD3D4 /* API.swift */,
+				A01E4B911DEDDD660078E51F /* Profile.swift */,
+				A01E4B931DEDDD760078E51F /* Session.swift */,
+			);
+			name = "serveur abstration";
 			sourceTree = "<group>";
 		};
 		C6C940A795182238768C99B6 /* Frameworks */ = {
@@ -247,14 +258,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A067401C1DDBA9F600053FCE /* AuthViewController.swift in Sources */,
-				935058001DDB26CC0006ADF0 /* SecondViewController.swift in Sources */,
 				A0E0E9DB1DE737F7002D0D73 /* TabBarController.swift in Sources */,
 				A0CD0FFB1DE6EC99008DD3D4 /* API.swift in Sources */,
 				93B068BF1DDBB7F200945657 /* ParagraphTableViewCell.swift in Sources */,
 				935057FC1DDB26CC0006ADF0 /* AppDelegate.swift in Sources */,
+				A01E4B8F1DED01010078E51F /* ProfileTableViewController.swift in Sources */,
 				93E3EA811DDEEC6B00001993 /* FeedTableViewController.swift in Sources */,
 				934A26A51DDB92E100B4F707 /* StoryDetailTableViewController.swift in Sources */,
-				935057FE1DDB26CC0006ADF0 /* FirstViewController.swift in Sources */,
+				A01E4B941DEDDD760078E51F /* Session.swift in Sources */,
+				A01E4B921DEDDD660078E51F /* Profile.swift in Sources */,
 				93086E091DDE15EA009DDFB8 /* FeedCardView.swift in Sources */,
 				93A4E04F1DDE1A43001CA4E6 /* StoryDetailHeaderTableViewCell.swift in Sources */,
 			);
@@ -384,6 +396,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = paragraf/paragraf.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = KA74PPR2DQ;
 				INFOPLIST_FILE = paragraf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,6 +413,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = paragraf/paragraf.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = KA74PPR2DQ;
 				INFOPLIST_FILE = paragraf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

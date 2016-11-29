@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let api = API(serverURL: "http://192.168.1.111", port: 3000)
-        api.retrieveToken(logToFacebook: presentFacebookLogin)
+        api.retrieveSession(success: {_ in }, error: presentFacebookLogin)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +26,7 @@ class TabBarController: UITabBarController {
     }
     
     
-    func presentFacebookLogin() {
+    func presentFacebookLogin(_: Error) {
         performSegue(withIdentifier: "facebookLogin", sender: nil)
     }
     
