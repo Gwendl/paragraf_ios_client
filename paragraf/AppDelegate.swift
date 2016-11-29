@@ -17,13 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
-        if (FBSDKAccessToken.current()) == nil {
-            
-            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-            let loginScreen = storyboard.instantiateViewController(withIdentifier: "authView")
-            self.window?.rootViewController = loginScreen
-        }
-        
         return true
     }
     

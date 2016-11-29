@@ -9,11 +9,12 @@
 import UIKit
 
 class TabBarController: UITabBarController {
+    
+    let api = API(serverURL: "http://192.168.1.111", port: 3000)
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let api = API(serverURL: "http://192.168.1.111", port: 3000)
-        api.retrieveSession(success: {_ in }, error: presentFacebookLogin)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +24,7 @@ class TabBarController: UITabBarController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        api.retrieveSession(success: {_ in }, error: presentFacebookLogin)
     }
     
     
@@ -30,6 +32,7 @@ class TabBarController: UITabBarController {
         performSegue(withIdentifier: "facebookLogin", sender: nil)
     }
     
-    @IBAction func unwindToTBC(segue: UIStoryboardSegue) {}
+    @IBAction func unwindToTBC(segue: UIStoryboardSegue) {print("bite")}
+    
 
 }

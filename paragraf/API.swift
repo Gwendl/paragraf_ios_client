@@ -35,7 +35,7 @@ class API {
             return successHandler(session!)
         }
         
-        guard let facebookToken = FBSDKAccessToken.current().tokenString else {
+        guard let facebookToken = FBSDKAccessToken.current()?.tokenString else {
             return errorHandler(APIError.facebookTokenError)
         }
         
